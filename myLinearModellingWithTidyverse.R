@@ -47,3 +47,20 @@ ggplot(housing_aug) +
 #cume_dist() which is a dplyr function that returns the proportion of all values less than or equal to the current rank
 example <- c(0.0, 3.0, 9.0, 5, 4.6, 2, 1, 0.8, 0, -1)
 cume_dist(example)
+
+
+######################################################################
+a_to_f <- head(letters)
+a_to_f
+tail(letters)
+seq_along(a_to_f)
+
+xs <- seq_len(10)
+xs
+ifelse(xs %% 2 == 0, xs, NA)
+
+
+library(tidyverse)
+library("broom")
+mtcars %>% lm(mpg ~ cyl * wt, data = .) %>%
+    tidy %>% print(digits = 4)
