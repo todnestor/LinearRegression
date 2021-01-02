@@ -58,8 +58,6 @@ seq_along(a_to_f)
 xs <- seq_len(10)
 xs
 ifelse(xs %% 2 == 0, xs, NA)
-
-
 library(tidyverse)
 library("broom")
 library(gapminder)
