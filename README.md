@@ -1,12 +1,11 @@
 # LinearRegression
 A repo for my ZZSC5806 files
 
-* The purpose of this repo is two fold: 
-    1. to determine whether version control is worth the effort
-    
-    2. to maintain my Applied Linear Regression projects in this repo
-    
-    3. to prove that I havent learnt to count!
+* The purpose of this repo is: 
 
-* Anyway, I'd like to be one of the "cool kids!"
-* Everyone needs to start somewhere
+    1. to maintain my Applied Linear Regression projects in this repo
+    
+    2. to provide ready access to projects when at work
+    
+    3. Anyway, I'd like to be one of the "cool kids!"
+
