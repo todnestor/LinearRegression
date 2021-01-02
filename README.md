@@ -9,3 +9,4 @@ A repo for my ZZSC5806 files
     3. to prove that I havent learnt to count!
 
 * Anyway, I'd like to be one of the "cool kids!"
+* Everyone needs to start somewhere
