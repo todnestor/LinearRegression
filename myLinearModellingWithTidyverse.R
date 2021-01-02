@@ -1,4 +1,5 @@
 #https://b-rodrigues.github.io/modern_R/statistical-models.html#fitting-a-model-to-data
+#tidverse model building
 library(Ecdat)
 data(Housing)
 model3 <- lm(price ~ ., data = Housing)
