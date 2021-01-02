@@ -62,5 +62,10 @@ ifelse(xs %% 2 == 0, xs, NA)
 
 library(tidyverse)
 library("broom")
-mtcars %>% lm(mpg ~ cyl * wt, data = .) %>%
-    tidy %>% print(digits = 4)
+library(gapminder)
+(my_gap <- gapminder)
+my_gap %>% filter(country == "Canada")
+
+my_gap %>%
+    mutate(gdp = pop * gdpPercap / 10 ^ 9) %>%
+    filter(country == "Australia")
